@@ -1,0 +1,22 @@
+No se Como carajo hacer para q oculte o muestre lo que esta dentro del boton contacto T_T
+no se que estoy haciendo mal
+
+
+
+
+
+
+
+
+
+
+para no olvidarme el antiguo boton xD
+
+<button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "bla bla bla bla";
+         }
+    </script>
